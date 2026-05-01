@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Prompts and Models of AI Tools</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121933;
+      --text: #e9ecf8;
+      --muted: #aeb7d8;
+      --accent: #6da8ff;
+      --accent-2: #7df0c4;
+      --border: #2a3566;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color: var(--text);
+      background: radial-gradient(1200px 700px at 80% -10%, #20306b 0%, transparent 60%), var(--bg);
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 28px 20px 70px; }
+    .hero {
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border-radius: 20px;
+      padding: 34px;
+      box-shadow: 0 20px 45px rgba(0,0,0,.25);
+    }
+    h1 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; margin: 0 0 14px; }
+    p.lead { color: var(--muted); font-size: 1.05rem; max-width: 70ch; margin: 0 0 24px; }
+    .cta { display: flex; gap: 10px; flex-wrap: wrap; }
+    a.btn {
+      text-decoration: none;
+      color: #07142e;
+      background: var(--accent-2);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    a.btn.secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+    section { margin-top: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .card h3 { margin: 0 0 8px; font-size: 1.05rem; }
+    .card p { margin: 0; color: var(--muted); font-size: .95rem; }
+    ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    code { background: #1a2347; border: 1px solid var(--border); padding: 2px 6px; border-radius: 6px; color: #c5f2dd; }
+    footer { margin-top: 36px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>System Prompts and Models of AI Tools</h1>
+      <p class="lead">
+        A large, practical dataset of system prompts, tool schemas, and model behavior references from many AI coding and assistant products.
+        Use this repository to research prompt design, compare agent capabilities, and improve security testing for AI apps.
+      </p>
+      <div class="cta">
+        <a class="btn" href="./README.md">Open README</a>
+        <a class="btn secondary" href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" rel="noreferrer">View on GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>What you can do with this repository</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Compare assistant behavior</h3>
+          <p>Study how products like Cursor, VSCode Agent, Claude Code, and others define tool use, safety, and conversation flow.</p>
+        </article>
+        <article class="card">
+          <h3>Build better system prompts</h3>
+          <p>Use real-world examples to shape your own assistant instructions, persona boundaries, and tool-calling policies.</p>
+        </article>
+        <article class="card">
+          <h3>Security auditing</h3>
+          <p>Understand prompt leakage patterns and test your own app for exposed instructions and unsafe operational behavior.</p>
+        </article>
+        <article class="card">
+          <h3>Dataset for research</h3>
+          <p>Use the files as qualitative material for agentic AI studies, benchmark design, and ecosystem trend tracking.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Quick start</h2>
+      <ul>
+        <li>Browse provider folders to inspect prompts and tools side-by-side.</li>
+        <li>Start with <code>README.md</code> for the full list of available collections.</li>
+        <li>Use this page as a lightweight intro when sharing the repository with teammates.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Tip: host this file with GitHub Pages or any static server for a clean public-facing landing page.
+    </footer>
+  </main>
+</body>
+</html>

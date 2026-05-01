@@ -49,6 +49,8 @@ You can show your support via:
 
 ## 📂 Available Files
 
+- [**Landing Page (HTML)**](./landing-page.html)
+
 - [**v0**](./v0%20Prompts%20and%20Tools/)
 - [**Manus**](./Manus%20Agent%20Tools%20&%20Prompt/)
 - [**Augment Code**](./Augment%20Code/)
